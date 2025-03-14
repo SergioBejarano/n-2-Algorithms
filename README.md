@@ -11,6 +11,23 @@ The project also includes a Python script to measure the execution time of these
 
 Example:
 
-![image](https://github.com/user-attachments/assets/c79d6eff-fc75-4728-bbce-d7ebc0669831)
+![image](https://github.com/user-attachments/assets/f5ad07be-8b71-4624-8f75-dd7eaa8bf241)
 
-![image](https://github.com/user-attachments/assets/d1c4dc45-642b-484c-9c6c-5708276ea8a9)
+![image](https://github.com/user-attachments/assets/794d47a0-792f-404e-8c2f-0bf7e51e3b8e)
+
+
+## ✅ Run tests with coverage
+
+```sh
+coverage run -m unittest discover -s tests
+```
+
+## 📊 Generate coverage report:
+```sh
+coverage report -m
+```
+
+##  Executing the Main Script
+```sh
+python main.py
+```
