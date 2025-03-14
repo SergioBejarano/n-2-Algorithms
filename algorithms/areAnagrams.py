@@ -27,7 +27,7 @@ def areAnagrams(string1, string2):
             if string2_list[i] == char:
                 found = True
                 string2_list[i] = None
-                i = len(string2_list)
+                break
         if not found:
             return False
 

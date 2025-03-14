@@ -7,7 +7,7 @@ from algorithms.findAllPairs import findAllPairs
 from utils.helpers import measure_time, generate_large_string, generate_large_array
 
 def main():
-    input_sizes = [10, 50, 100, 200, 500, 1000]
+    input_sizes = [200*i for i in range(1,21)]
 
     anagram_times = []
     triangle_times = []
@@ -28,6 +28,7 @@ def main():
         pairs_time = measure_time(findAllPairs, arr)
         pairs_times.append(pairs_time)
 
+        print("Computing "+str(size))
     data = {
         "Input Size": input_sizes,
         "Anagram Time (s)": anagram_times,
