@@ -14,8 +14,8 @@ def main():
     pairs_times = []
 
     for size in input_sizes:
-        string1 = generate_large_string(size*2)
-        string2 = generate_large_string(size*2)
+        string1 = generate_large_string(size)
+        string2 = generate_large_string(size)
         sides = generate_large_array(size)
         arr = generate_large_array(size)
 

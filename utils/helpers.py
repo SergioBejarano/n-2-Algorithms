@@ -27,7 +27,7 @@ def generate_large_string(size):
     Returns:
         str: A random string.
     """
-    return ''.join(random.choice('abcdefghijklmnopqrstuvxyz') for _ in range(size))
+    return ''.join(random.choice('a') for _ in range(size*2))
 
 
 def generate_large_array(size):
